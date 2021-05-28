@@ -2,6 +2,14 @@
 
 A vital preset optimizer
 
+# Processing variables
+
+_file_path_ // __string__ // The file path of the preset
+
+_disabled_prefixes_ // __list__ // A list of the disabled prefixes
+
+_file_data_ // __dict__ // The entire preset file data in dictionary form
+
 # User Input variables
 
 ## General
@@ -14,11 +22,7 @@ _pretty_file_ // __bool__ // Will pretty print the new JSON file for easy readin
 
 _round_lfos_ //  __bool__ // Will round LFO's if true
 
-## Delete Data
-
-_delete_unused_ // __bool__ // Enables deleting of all unused data if true, if false, it will delete the unsed data of whatever is in the _prefixes_ list which can be manually set in _gui.py_
-
-_prefixes_ // __list__ // Contains the list of disabled prefixes, paired with _allBut_noneBut_ will decide what you do with them
+_delete_unused_ // __bool__ // Enables deleting of all unused data from prefixes in _disabled_prefixes_ if true
 
 # Directory Info
 
