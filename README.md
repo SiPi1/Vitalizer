@@ -39,7 +39,7 @@ _delete_unused_ // __bool__ // Enables deleting of all unused data from prefixes
 
 ### _original_presets_ 
 
-Where you put the presets you want optimized, currently contains the _november 2020 free patch sharing thread_ bank
+Where you put the presets you want optimized, currently contains the _april 2021 free patch sharing thread_ bank
 
 ### _optimized_presets_
 
