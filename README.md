@@ -26,14 +26,41 @@ _delete_unused_ // __bool__ // Enables deleting of all unused data from prefixes
 
 # Directory Info
 
-## _original_presets_ 
+## Folders
+
+### _original_presets_ 
 
 Where you put the presets you want optimized, currently contains the _november 2020 free patch sharing thread_ bank
 
-## _optimized_presets_
+### _optimized_presets_
 
 Where the presets go after optimization
 
-## _data_
+### _data_
 
 Contains general use data, such as a list of available prefixes
+
+## Files
+
+### _main.py_
+
+The heart of the opperation
+
+### _gui.py_
+
+Contains the GUI of the program and is the only part that the user ineracts with
+
+### _processing.py_
+
+Contains the guts and actual functionality of the program.
+
+# Process
+
+1. _main.py_ is launched.
+2. _main.py_ calls _gui.py_
+3. _gui.py_ finishes and returns the **User Input variables** to _main.py_
+4. _main.py_ loops through all the files in _original_presets_ and extracts the **Processing variables**
+5. _main.py_ either sends a dictionary (https://pastebin.com/czG8igxq) for all of the files, or sends them one at a time, containing both **User Input variables** and **Processing variables** to _processing.py_
+6. _processing.py_ processes the files and either returns the to _main.py_ or sends them off to _optimized_presets_
+
+
