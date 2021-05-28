@@ -16,11 +16,9 @@ _round_lfos_ //  __bool__ // Will round LFO's if true
 
 ## Delete Data
 
-_delete_unused_ // __bool__ // Enables deleting of unused data if true
+_delete_unused_ // __bool__ // Enables deleting of all unused data if true, if false, it will delete the unsed data of whatever is in the _prefixes_ list which can be manually set in _gui.py_
 
 _prefixes_ // __list__ // Contains the list of disabled prefixes, paired with _allBut_noneBut_ will decide what you do with them
-
-_allBut_noneBut_ // __bool__ // If true exclued the list of prefixes from unused data deletion, if false exclude all except the list of prefixes
 
 # Directory Info
 
