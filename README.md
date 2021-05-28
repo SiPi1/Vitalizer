@@ -21,8 +21,6 @@ _file_data_ // __dict__ // The entire preset file data in dictionary form
 
 # User Input variables
 
-## General
-
 Stick to using these for all user inputs so our programs can work together
 
 _round_amount_ // __int__ // The amount each parameter/knob is rounded too.
